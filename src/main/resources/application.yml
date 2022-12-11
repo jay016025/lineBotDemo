@@ -1,2 +1,14 @@
 server:
   port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Jay:jay016025@demo.xvdjcqc.mongodb.net/?retryWrites=true&w=majority
+      auto-index-creation: true
+      database: lineBot
+
+line.bot:
+  channel-token: 'aETqjsZhRy6/cQOQGN7WPyWKdRChzRdcNi4WqIwEN+x1PglKC6G0EmsEPTZ02mHa63s09wgbT1oufjxMpsPwSG2iToWO1lRE6jtdTLBWdBFIEfloDS8hyYyyedhTsjJy6rWWefYxhUPuRsI3yK333AdB04t89/1O/w1cDnyilFU='
+  channel-secret: '46f8075af3f7b2b1721796b6a7f392d2'
+  handler.path: /callback
